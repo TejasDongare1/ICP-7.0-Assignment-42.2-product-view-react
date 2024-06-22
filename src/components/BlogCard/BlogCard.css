@@ -1,0 +1,49 @@
+.blog-card{
+    background-color:rgb(85, 212, 123);
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.1);
+    border: 2px solid  black;
+    text-decoration: none;
+    color: black;
+}
+.blog-card:hover{
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.3);
+}
+.blog-title{
+  font-size: 20px;
+  text-align: center;
+}
+.blog-content-preview{
+    font-size: 14px;
+}
+.author-card{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+}
+.author-avtar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.author-name{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+.blog-date{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 20px;
+}
+.category-badge{
+    background-color: red;
+    color: white;
+    padding: 2px 10px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+}
